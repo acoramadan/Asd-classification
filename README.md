@@ -4,23 +4,6 @@ This project focuses on building an NLP-based classification pipeline to disting
 
 ---
 
-## 📁 Directory Structure
-
-asd-classification/
-├── data/
-│ └── raw/ # Raw CSV files of ASD participant transcripts
-├── preprocessing/
-│ └── text_preprocessor.py # Class for text cleaning and normalization
-├── feature_extraction/
-│ └── feature_extractor.py # Class for TF-IDF and IndoBERT embedding extraction
-├── model/
-│ ├── trainer.py # Class for training baseline models
-│ └── evaluator.py # Class for model evaluation (cross-validation)
-├── notebooks/
-│ └── main_experiment.ipynb # Main notebook for running experiments
-├── pyproject.toml # Poetry environment configuration
-└── README.md # Project documentation
-
 ## 🎯 Project Objective
 
 - To identify linguistic characteristics in ASD children's speech using text classification techniques.

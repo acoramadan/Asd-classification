@@ -1,0 +1,57 @@
+index,true_label,predicted_label,word,weight,text
+0,ASD,ASD,nghh,-0.30107204080573424,HMMMM nghh
+0,ASD,ASD,HMMMM,0.10576374633953066,HMMMM nghh
+1,ASD,ASD,toko,-0.07753754826510285,Di toko indah
+1,ASD,ASD,indah,-0.0309112647764604,Di toko indah
+1,ASD,ASD,Di,-0.00357955771596587,Di toko indah
+2,ASD,NON ASD,hmmmmmm,9.619922636471034e-31,hmmmmmm
+3,ASD,NON ASD,Sama,0.1710312414572606,Sama kakak!
+3,ASD,NON ASD,kakak,-0.12937084521411513,Sama kakak!
+4,ASD,ASD,ZAAAMIIIHIII,-0.040528747936468365,ZAAAMIIIHIII
+5,ASD,ASD,HAAAAA,-0.09811724342254799,HAAAAA!
+6,ASD,ASD,NGHHHh,-0.14745736011243687,NGHHHh!
+7,ASD,ASD,Nghh,-0.1569474084644937,Nghh
+8,ASD,ASD,nusa,0.051204651256941715,Filmnya nusa tapi ta nusa
+8,ASD,ASD,ta,-0.030732791731661067,Filmnya nusa tapi ta nusa
+8,ASD,ASD,tapi,-0.029517402783555743,Filmnya nusa tapi ta nusa
+8,ASD,ASD,Filmnya,0.0060968167640739436,Filmnya nusa tapi ta nusa
+9,ASD,ASD,Tanggal,-0.2930815593551882,"Tanggal 10, Tanggal 17 sampai ulangan"
+9,ASD,ASD,17,0.021808392413131133,"Tanggal 10, Tanggal 17 sampai ulangan"
+9,ASD,ASD,sampai,0.012232535746391196,"Tanggal 10, Tanggal 17 sampai ulangan"
+9,ASD,ASD,10,-0.006166024551910196,"Tanggal 10, Tanggal 17 sampai ulangan"
+9,ASD,ASD,ulangan,-0.0056637673670359165,"Tanggal 10, Tanggal 17 sampai ulangan"
+10,ASD,ASD,pak,-0.3330899780709097,Ayok pak
+10,ASD,ASD,Ayok,0.2666917248759391,Ayok pak
+11,ASD,ASD,Hmpppppphhhhh,-0.040528747936468365,Hmpppppphhhhh
+12,NON ASD,NON ASD,Lagi,0.10718862816492149,Lagi
+13,NON ASD,NON ASD,Ohhhh,0.12115704946725042,Ohhhh
+14,NON ASD,NON ASD,tulis,0.04613589386554848,"Tulis, tulis, tulis cepat"
+14,NON ASD,NON ASD,Tulis,0.030784662024838656,"Tulis, tulis, tulis cepat"
+14,NON ASD,NON ASD,cepat,0.0046934245933378605,"Tulis, tulis, tulis cepat"
+15,NON ASD,NON ASD,Hebat,0.1342832791380673,"Hebat, Yeeee"
+15,NON ASD,NON ASD,Yeeee,-0.047336342798958694,"Hebat, Yeeee"
+16,NON ASD,NON ASD,Okeee,0.05834336586162876,Okeee
+17,NON ASD,NON ASD,Oalah,0.050011608211713514,Oalah tidak ada suaranya
+17,NON ASD,NON ASD,ada,-3.966570226122658e-05,Oalah tidak ada suaranya
+17,NON ASD,NON ASD,suaranya,-3.7816840183788134e-05,Oalah tidak ada suaranya
+17,NON ASD,NON ASD,tidak,-3.402096922490799e-05,Oalah tidak ada suaranya
+18,NON ASD,NON ASD,Kenapa,0.1815210593482482,Kenapa tidak suka ikan?
+18,NON ASD,NON ASD,tidak,0.038827663908763466,Kenapa tidak suka ikan?
+18,NON ASD,NON ASD,suka,0.027412554633748674,Kenapa tidak suka ikan?
+18,NON ASD,NON ASD,ikan,-0.0003133773144491974,Kenapa tidak suka ikan?
+19,NON ASD,NON ASD,Ini,0.3302737913458239,Ini apa yang dipegang nusa
+19,NON ASD,NON ASD,nusa,-0.015479363462960572,Ini apa yang dipegang nusa
+19,NON ASD,NON ASD,yang,0.006894243502083892,Ini apa yang dipegang nusa
+19,NON ASD,NON ASD,dipegang,0.0068331408575402165,Ini apa yang dipegang nusa
+19,NON ASD,NON ASD,apa,0.004146700502115661,Ini apa yang dipegang nusa
+20,NON ASD,NON ASD,Iyaa,9.619922636471034e-31,Iyaa
+21,NON ASD,NON ASD,pernah,0.07751221421791872,Kamu pernah tidak mengalami
+21,NON ASD,NON ASD,tidak,-6.732302849515936e-05,Kamu pernah tidak mengalami
+21,NON ASD,NON ASD,mengalami,-5.911252649643769e-05,Kamu pernah tidak mengalami
+21,NON ASD,NON ASD,Kamu,-5.590810764470127e-05,Kamu pernah tidak mengalami
+22,NON ASD,NON ASD,Naik,0.1659457583110478,Naik
+23,NON ASD,NON ASD,aldi,0.3091543771312277,Tidak? aldi tidak pernah ketakutan?
+23,NON ASD,NON ASD,pernah,-0.007746507915723795,Tidak? aldi tidak pernah ketakutan?
+23,NON ASD,NON ASD,tidak,0.006753292287684229,Tidak? aldi tidak pernah ketakutan?
+23,NON ASD,NON ASD,ketakutan,0.005853188106387776,Tidak? aldi tidak pernah ketakutan?
+23,NON ASD,NON ASD,Tidak,0.00532308198076264,Tidak? aldi tidak pernah ketakutan?
