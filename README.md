@@ -83,12 +83,14 @@ asd-classification/
    git clone https://github.com/your-username/asd-classification.git
    cd asd-classification
 2. Install dependencies using Poetry:
-poetry install
-poetry shell
+    ```bash
+    poetry install
+    poetry shell
 
 3. Launch the main experiment notebook:
-cd notebooks
-jupyter notebook main_experiment.ipynb
+    ```bash
+    cd notebooks
+    jupyter notebook main_experiment.ipynb
 
 
 ## 📂 Dataset Access
