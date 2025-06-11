@@ -1,0 +1,22 @@
+# Ignore dataset folder (contains private transcription data)
+data/
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+.venv/
+.env/
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
