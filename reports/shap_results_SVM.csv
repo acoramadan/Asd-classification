@@ -1,0 +1,463 @@
+index,word,shap_value,text,true_label
+0,,[0. 0.],kaget,NON ASD
+0,kaget,[-0.55885881  0.55885881],kaget,NON ASD
+0,,[0. 0.],kaget,NON ASD
+1,,[0. 0.],hiiiiii,ASD
+1,hi,[-0.11087476  0.11087476],hiiiiii,ASD
+1,iiii,[-0.21341753  0.21341753],hiiiiii,ASD
+1,i,[-0.12554372  0.12554372],hiiiiii,ASD
+1,,[0. 0.],hiiiiii,ASD
+2,,[0. 0.],takut,NON ASD
+2,takut,[-0.52883338  0.52883338],takut,NON ASD
+2,,[0. 0.],takut,NON ASD
+3,,[0. 0.],ohhhh,NON ASD
+3,ohh,[-0.41465307  0.41465307],ohhhh,NON ASD
+3,hh,[-0.28101425  0.28101425],ohhhh,NON ASD
+3,,[0. 0.],ohhhh,NON ASD
+4,,[0. 0.],opaa aja banja ban,ASD
+4,op,[-0.00862455  0.00862455],opaa aja banja ban,ASD
+4,aa ,[ 0.06371017 -0.06371017],opaa aja banja ban,ASD
+4,aja ,[-0.16976737  0.16976737],opaa aja banja ban,ASD
+4,banj,[-0.06581732  0.06581732],opaa aja banja ban,ASD
+4,a ,[-0.08679178  0.08679178],opaa aja banja ban,ASD
+4,ban,[-0.08059491  0.08059491],opaa aja banja ban,ASD
+4,,[0. 0.],opaa aja banja ban,ASD
+5,,[0. 0.],kaget tadi hahaha,NON ASD
+5,kaget ,[-0.03560629  0.03560629],kaget tadi hahaha,NON ASD
+5,tadi ,[-0.41059914  0.41059914],kaget tadi hahaha,NON ASD
+5,hahaha,[-0.26780322  0.26780322],kaget tadi hahaha,NON ASD
+5,,[0. 0.],kaget tadi hahaha,NON ASD
+6,,[0. 0.],mwah,ASD
+6,mw,[ 0.21349957 -0.21349957],mwah,ASD
+6,ah,[-0.42485351  0.42485351],mwah,ASD
+6,,[0. 0.],mwah,ASD
+7,,[0. 0.],okee pintar,NON ASD
+7,oke,[-0.46452816  0.46452816],okee pintar,NON ASD
+7,e ,[-0.28949977  0.28949977],okee pintar,NON ASD
+7,pintar,[ 0.01606231 -0.01606231],okee pintar,NON ASD
+7,,[0. 0.],okee pintar,NON ASD
+8,,[0. 0.],keysa lihat sini keysa,NON ASD
+8,key,[-0.23900161  0.23900161],keysa lihat sini keysa,NON ASD
+8,sa ,[-0.1444076  0.1444076],keysa lihat sini keysa,NON ASD
+8,lihat ,[-0.35585047  0.35585047],keysa lihat sini keysa,NON ASD
+8,sini ,[-0.1585967  0.1585967],keysa lihat sini keysa,NON ASD
+8,key,[-0.05552553  0.05552553],keysa lihat sini keysa,NON ASD
+8,sa,[-0.02218817  0.02218817],keysa lihat sini keysa,NON ASD
+8,,[0. 0.],keysa lihat sini keysa,NON ASD
+9,,[0. 0.],kalau kalau,NON ASD
+9,kalau ,[-0.34299846  0.34299846],kalau kalau,NON ASD
+9,kalau,[-0.45503843  0.45503843],kalau kalau,NON ASD
+9,,[0. 0.],kalau kalau,NON ASD
+10,,[0. 0.],senang senang,NON ASD
+10,senang ,[-0.25069416  0.25069416],senang senang,NON ASD
+10,senang,[-0.56623224  0.56623224],senang senang,NON ASD
+10,,[0. 0.],senang senang,NON ASD
+11,,[0. 0.],,ASD
+11,,[0. 0.],,ASD
+12,,[0. 0.],ini farel mas ingat kagak,NON ASD
+12,ini ,[-0.19744613  0.19744613],ini farel mas ingat kagak,NON ASD
+12,far,[-0.09867911  0.09867911],ini farel mas ingat kagak,NON ASD
+12,el ,[-0.09066889  0.09066889],ini farel mas ingat kagak,NON ASD
+12,mas ,[-0.19951777  0.19951777],ini farel mas ingat kagak,NON ASD
+12,ingat ,[-0.13220734  0.13220734],ini farel mas ingat kagak,NON ASD
+12,kagak,[-0.26305267  0.26305267],ini farel mas ingat kagak,NON ASD
+12,,[0. 0.],ini farel mas ingat kagak,NON ASD
+13,,[0. 0.],lepas tangan,NON ASD
+13,lepas ,[-0.53786671  0.53786671],lepas tangan,NON ASD
+13,tangan,[-0.15989459  0.15989459],lepas tangan,NON ASD
+13,,[0. 0.],lepas tangan,NON ASD
+14,,[0. 0.],lempar kaka farel,NON ASD
+14,lempar ,[-0.46022848  0.46022848],lempar kaka farel,NON ASD
+14,kaka ,[-0.081076  0.081076],lempar kaka farel,NON ASD
+14,far,[-0.14249367  0.14249367],lempar kaka farel,NON ASD
+14,el,[-0.11492491  0.11492491],lempar kaka farel,NON ASD
+14,,[0. 0.],lempar kaka farel,NON ASD
+15,,[0. 0.],lagi,ASD
+15,lagi,[-0.52881005  0.52881005],lagi,ASD
+15,,[0. 0.],lagi,ASD
+16,,[0. 0.],nama adik,NON ASD
+16,nama ,[-0.59967077  0.59967077],nama adik,NON ASD
+16,adik,[-0.09606285  0.09606285],nama adik,NON ASD
+16,,[0. 0.],nama adik,NON ASD
+17,,[0. 0.],kaka laki laki,NON ASD
+17,kaka ,[ 0.00161899 -0.00161899],kaka laki laki,NON ASD
+17,laki ,[-0.52728224  0.52728224],kaka laki laki,NON ASD
+17,laki,[-0.39151983  0.39151983],kaka laki laki,NON ASD
+17,,[0. 0.],kaka laki laki,NON ASD
+18,,[0. 0.],pena,ASD
+18,pena,[-0.26570165  0.26570165],pena,ASD
+18,,[0. 0.],pena,ASD
+19,,[0. 0.],kalau takut gimana,NON ASD
+19,kalau ,[-0.10887  0.10887],kalau takut gimana,NON ASD
+19,takut ,[-0.31828316  0.31828316],kalau takut gimana,NON ASD
+19,gimana,[-0.5704027  0.5704027],kalau takut gimana,NON ASD
+19,,[0. 0.],kalau takut gimana,NON ASD
+20,,[0. 0.],naik,NON ASD
+20,naik,[-0.52885565  0.52885565],naik,NON ASD
+20,,[0. 0.],naik,NON ASD
+21,,[0. 0.],hahahahha,NON ASD
+21,hahahah,[-0.37818475  0.37818475],hahahahha,NON ASD
+21,ha,[-0.33337508  0.33337508],hahahahha,NON ASD
+21,,[0. 0.],hahahahha,NON ASD
+22,,[0. 0.],naik,NON ASD
+22,naik,[-0.52885565  0.52885565],naik,NON ASD
+22,,[0. 0.],naik,NON ASD
+23,,[0. 0.],hiiiiii,ASD
+23,hi,[-0.11087476  0.11087476],hiiiiii,ASD
+23,iiii,[-0.21341753  0.21341753],hiiiiii,ASD
+23,i,[-0.12554372  0.12554372],hiiiiii,ASD
+23,,[0. 0.],hiiiiii,ASD
+24,,[0. 0.],,ASD
+24,,[0. 0.],,ASD
+25,,[0. 0.],tapi kayak ngefeedback,NON ASD
+25,tapi ,[-0.03005488  0.03005488],tapi kayak ngefeedback,NON ASD
+25,kayak ,[-0.17966372  0.17966372],tapi kayak ngefeedback,NON ASD
+25,ngef,[-0.23390443  0.23390443],tapi kayak ngefeedback,NON ASD
+25,eed,[-0.16838101  0.16838101],tapi kayak ngefeedback,NON ASD
+25,back,[-0.28433637  0.28433637],tapi kayak ngefeedback,NON ASD
+25,,[0. 0.],tapi kayak ngefeedback,NON ASD
+26,,[0. 0.],lanjut,NON ASD
+26,lanjut,[-0.69476791  0.69476791],lanjut,NON ASD
+26,,[0. 0.],lanjut,NON ASD
+27,,[0. 0.],satu dua sudah,NON ASD
+27,satu ,[-0.10474144  0.10474144],satu dua sudah,NON ASD
+27,dua ,[-0.53149784  0.53149784],satu dua sudah,NON ASD
+27,sudah,[-0.35371345  0.35371345],satu dua sudah,NON ASD
+27,,[0. 0.],satu dua sudah,NON ASD
+28,,[0. 0.],shhhhh ahhhh,NON ASD
+28,sh,[-0.04372058  0.04372058],shhhhh ahhhh,NON ASD
+28,hhhh ,[-0.12350056  0.12350056],shhhhh ahhhh,NON ASD
+28,ahh,[-0.11083913  0.11083913],shhhhh ahhhh,NON ASD
+28,hh,[-0.22076703  0.22076703],shhhhh ahhhh,NON ASD
+28,,[0. 0.],shhhhh ahhhh,NON ASD
+29,,[0. 0.],hey,NON ASD
+29,hey,[-0.76522373  0.76522373],hey,NON ASD
+29,,[0. 0.],hey,NON ASD
+30,,[0. 0.],tak mau tak mau,ASD
+30,tak ,[-0.07330277  0.07330277],tak mau tak mau,ASD
+30,mau ,[-0.13527578  0.13527578],tak mau tak mau,ASD
+30,tak ,[-0.15412959  0.15412959],tak mau tak mau,ASD
+30,mau,[-0.08929272  0.08929272],tak mau tak mau,ASD
+30,,[0. 0.],tak mau tak mau,ASD
+31,,[0. 0.],keysa keysa,NON ASD
+31,key,[-0.22475811  0.22475811],keysa keysa,NON ASD
+31,sa ,[-0.1156576  0.1156576],keysa keysa,NON ASD
+31,key,[-0.41621453  0.41621453],keysa keysa,NON ASD
+31,sa,[-0.18751285  0.18751285],keysa keysa,NON ASD
+31,,[0. 0.],keysa keysa,NON ASD
+32,,[0. 0.],ibu,NON ASD
+32,ibu,[-0.52883311  0.52883311],ibu,NON ASD
+32,,[0. 0.],ibu,NON ASD
+33,,[0. 0.],aaaaaaa,ASD
+33,aa,[-0.0162009  0.0162009],aaaaaaa,ASD
+33,aaaaa,[-0.07904632  0.07904632],aaaaaaa,ASD
+33,,[0. 0.],aaaaaaa,ASD
+34,,[0. 0.],ayok duduk yah ayok duduk duduk,NON ASD
+34,ayo,[-0.07860123  0.07860123],ayok duduk yah ayok duduk duduk,NON ASD
+34,k ,[-0.05881261  0.05881261],ayok duduk yah ayok duduk duduk,NON ASD
+34,duduk ,[-0.22202036  0.22202036],ayok duduk yah ayok duduk duduk,NON ASD
+34,yah ,[-0.27762109  0.27762109],ayok duduk yah ayok duduk duduk,NON ASD
+34,ayo,[-0.18853588  0.18853588],ayok duduk yah ayok duduk duduk,NON ASD
+34,k ,[-0.1135438  0.1135438],ayok duduk yah ayok duduk duduk,NON ASD
+34,duduk ,[-0.02387413  0.02387413],ayok duduk yah ayok duduk duduk,NON ASD
+34,duduk,[-0.00978464  0.00978464],ayok duduk yah ayok duduk duduk,NON ASD
+34,,[0. 0.],ayok duduk yah ayok duduk duduk,NON ASD
+35,,[0. 0.],okay,NON ASD
+35,okay,[-0.72142964  0.72142964],okay,NON ASD
+35,,[0. 0.],okay,NON ASD
+36,,[0. 0.],mau yah,NON ASD
+36,mau ,[-0.06495468  0.06495468],mau yah,NON ASD
+36,yah,[-0.71053583  0.71053583],mau yah,NON ASD
+36,,[0. 0.],mau yah,NON ASD
+37,,[0. 0.],nah,ASD
+37,nah,[-0.52885719  0.52885719],nah,ASD
+37,,[0. 0.],nah,ASD
+38,,[0. 0.],sabtu libur tanggal sabtu libur,ASD
+38,sabtu ,[-0.03486444  0.03486444],sabtu libur tanggal sabtu libur,ASD
+38,libur ,[-0.10228087  0.10228087],sabtu libur tanggal sabtu libur,ASD
+38,tanggal ,[-0.06525725  0.06525725],sabtu libur tanggal sabtu libur,ASD
+38,sabtu ,[-0.07709727  0.07709727],sabtu libur tanggal sabtu libur,ASD
+38,libur,[-0.17247876  0.17247876],sabtu libur tanggal sabtu libur,ASD
+38,,[0. 0.],sabtu libur tanggal sabtu libur,ASD
+39,,[0. 0.],huaaaa,ASD
+39,hua,[ 0.11176325 -0.11176325],huaaaa,ASD
+39,aaa,[-0.1862796  0.1862796],huaaaa,ASD
+39,,[0. 0.],huaaaa,ASD
+40,,[0. 0.],risaaa,NON ASD
+40,ris,[-0.31545107  0.31545107],risaaa,NON ASD
+40,aaa,[-0.38023985  0.38023985],risaaa,NON ASD
+40,,[0. 0.],risaaa,NON ASD
+41,,[0. 0.],sama tante,ASD
+41,sama ,[-0.28477123  0.28477123],sama tante,ASD
+41,tante,[-0.14778842  0.14778842],sama tante,ASD
+41,,[0. 0.],sama tante,ASD
+42,,[0. 0.],bilang pinjam,NON ASD
+42,bilang ,[-0.42996302  0.42996302],bilang pinjam,NON ASD
+42,pinjam,[-0.44950176  0.44950176],bilang pinjam,NON ASD
+42,,[0. 0.],bilang pinjam,NON ASD
+43,,[0. 0.],takut ketemu setan,NON ASD
+43,takut ,[ 0.0031888 -0.0031888],takut ketemu setan,NON ASD
+43,ketemu ,[-0.53541613  0.53541613],takut ketemu setan,NON ASD
+43,setan,[-0.22176255  0.22176255],takut ketemu setan,NON ASD
+43,,[0. 0.],takut ketemu setan,NON ASD
+44,,[0. 0.],kalau marah,NON ASD
+44,kalau ,[-0.41400742  0.41400742],kalau marah,NON ASD
+44,marah,[-0.40615637  0.40615637],kalau marah,NON ASD
+44,,[0. 0.],kalau marah,NON ASD
+45,,[0. 0.],ulang lagi coba,NON ASD
+45,ulang ,[-0.07581263  0.07581263],ulang lagi coba,NON ASD
+45,lagi ,[-0.47979719  0.47979719],ulang lagi coba,NON ASD
+45,coba,[-0.36436975  0.36436975],ulang lagi coba,NON ASD
+45,,[0. 0.],ulang lagi coba,NON ASD
+46,,[0. 0.],bukuu pencil,ASD
+46,buku,[-0.00932058  0.00932058],bukuu pencil,ASD
+46,u ,[-0.07515109  0.07515109],bukuu pencil,ASD
+46,penc,[-0.10760408  0.10760408],bukuu pencil,ASD
+46,il,[-0.25994664  0.25994664],bukuu pencil,ASD
+46,,[0. 0.],bukuu pencil,ASD
+47,,[0. 0.],farees,NON ASD
+47,far,[-0.09489086  0.09489086],farees,NON ASD
+47,ees,[-0.75327892  0.75327892],farees,NON ASD
+47,,[0. 0.],farees,NON ASD
+48,,[0. 0.],,ASD
+48,,[0. 0.],,ASD
+49,,[0. 0.],sini nak,NON ASD
+49,sini ,[-0.59799921  0.59799921],sini nak,NON ASD
+49,nak,[-0.27882432  0.27882432],sini nak,NON ASD
+49,,[0. 0.],sini nak,NON ASD
+50,,[0. 0.],spesifik jijik,NON ASD
+50,spesifik ,[-0.36027185  0.36027185],spesifik jijik,NON ASD
+50,jijik,[-0.52220126  0.52220126],spesifik jijik,NON ASD
+50,,[0. 0.],spesifik jijik,NON ASD
+51,,[0. 0.],kristen,ASD
+51,kristen,[-0.26200237  0.26200237],kristen,ASD
+51,,[0. 0.],kristen,ASD
+52,,[0. 0.],cepat risa,NON ASD
+52,cepat ,[-0.06793158  0.06793158],cepat risa,NON ASD
+52,ris,[-0.42927865  0.42927865],cepat risa,NON ASD
+52,a,[-0.25017539  0.25017539],cepat risa,NON ASD
+52,,[0. 0.],cepat risa,NON ASD
+53,,[0. 0.],tinggi,NON ASD
+53,tinggi,[-0.52882943  0.52882943],tinggi,NON ASD
+53,,[0. 0.],tinggi,NON ASD
+54,,[0. 0.],buku buku,NON ASD
+54,buku ,[-0.23139041  0.23139041],buku buku,NON ASD
+54,buku,[-0.46437765  0.46437765],buku buku,NON ASD
+54,,[0. 0.],buku buku,NON ASD
+55,,[0. 0.],yeyy,ASD
+55,ye,[ 0.09580239 -0.09580239],yeyy,ASD
+55,yy,[-0.37483182  0.37483182],yeyy,ASD
+55,,[0. 0.],yeyy,ASD
+56,,[0. 0.],nang kayak gimana,NON ASD
+56,nang ,[-0.0005739  0.0005739],nang kayak gimana,NON ASD
+56,kayak ,[-0.28110248  0.28110248],nang kayak gimana,NON ASD
+56,gimana,[-0.69577784  0.69577784],nang kayak gimana,NON ASD
+56,,[0. 0.],nang kayak gimana,NON ASD
+57,,[0. 0.],ini telur,NON ASD
+57,ini ,[-0.36645479  0.36645479],ini telur,NON ASD
+57,telur,[-0.32927706  0.32927706],ini telur,NON ASD
+57,,[0. 0.],ini telur,NON ASD
+58,,[0. 0.],ongko sanon,ASD
+58,ongk,[ 0.00969873 -0.00969873],ongko sanon,ASD
+58,o ,[ 0.02692759 -0.02692759],ongko sanon,ASD
+58,san,[-0.03612634  0.03612634],ongko sanon,ASD
+58,on,[-0.18522235  0.18522235],ongko sanon,ASD
+58,,[0. 0.],ongko sanon,ASD
+59,,[0. 0.],dua tangan,NON ASD
+59,dua ,[-0.73402604  0.73402604],dua tangan,NON ASD
+59,tangan,[-0.205606  0.205606],dua tangan,NON ASD
+59,,[0. 0.],dua tangan,NON ASD
+60,,[0. 0.],okee sudah tanya sama kaka,NON ASD
+60,oke,[-0.18426778  0.18426778],okee sudah tanya sama kaka,NON ASD
+60,e ,[-0.15894257  0.15894257],okee sudah tanya sama kaka,NON ASD
+60,sudah ,[-0.11227689  0.11227689],okee sudah tanya sama kaka,NON ASD
+60,tanya ,[-0.25266759  0.25266759],okee sudah tanya sama kaka,NON ASD
+60,sama ,[-0.1223051  0.1223051],okee sudah tanya sama kaka,NON ASD
+60,kaka,[-0.11471332  0.11471332],okee sudah tanya sama kaka,NON ASD
+60,,[0. 0.],okee sudah tanya sama kaka,NON ASD
+61,,[0. 0.],iniii,ASD
+61,ini,[-0.01118413  0.01118413],iniii,ASD
+61,ii,[-0.42134365  0.42134365],iniii,ASD
+61,,[0. 0.],iniii,ASD
+62,,[0. 0.],tetap takut,NON ASD
+62,tetap ,[ 0.06706591 -0.06706591],tetap takut,NON ASD
+62,takut,[-0.76281768  0.76281768],tetap takut,NON ASD
+62,,[0. 0.],tetap takut,NON ASD
+63,,[0. 0.],ohh jemput,NON ASD
+63,ohh ,[-0.58821689  0.58821689],ohh jemput,NON ASD
+63,jemput,[-0.31687907  0.31687907],ohh jemput,NON ASD
+63,,[0. 0.],ohh jemput,NON ASD
+64,,[0. 0.],takut setan,NON ASD
+64,takut ,[-0.2163171  0.2163171],takut setan,NON ASD
+64,setan,[-0.47941295  0.47941295],takut setan,NON ASD
+64,,[0. 0.],takut setan,NON ASD
+65,,[0. 0.],ohh sakit,NON ASD
+65,ohh ,[-0.53374308  0.53374308],ohh sakit,NON ASD
+65,sakit,[-0.40371713  0.40371713],ohh sakit,NON ASD
+65,,[0. 0.],ohh sakit,NON ASD
+66,,[0. 0.],terus,NON ASD
+66,terus,[-0.56247226  0.56247226],terus,NON ASD
+66,,[0. 0.],terus,NON ASD
+67,,[0. 0.],ohh kalau beginiii hapus lagi,NON ASD
+67,ohh ,[-0.07316911  0.07316911],ohh kalau beginiii hapus lagi,NON ASD
+67,kalau ,[-0.31414625  0.31414625],ohh kalau beginiii hapus lagi,NON ASD
+67,begini,[-0.23664144  0.23664144],ohh kalau beginiii hapus lagi,NON ASD
+67,ii ,[-0.29160584  0.29160584],ohh kalau beginiii hapus lagi,NON ASD
+67,hapus ,[-0.00873149  0.00873149],ohh kalau beginiii hapus lagi,NON ASD
+67,lagi,[-0.01754896  0.01754896],ohh kalau beginiii hapus lagi,NON ASD
+67,,[0. 0.],ohh kalau beginiii hapus lagi,NON ASD
+68,,[0. 0.],a lagi,NON ASD
+68,a ,[-0.00698439  0.00698439],a lagi,NON ASD
+68,lagi,[-0.68878085  0.68878085],a lagi,NON ASD
+68,,[0. 0.],a lagi,NON ASD
+69,,[0. 0.],hahaha,ASD
+69,hahaha,[-0.52884786  0.52884786],hahaha,ASD
+69,,[0. 0.],hahaha,ASD
+70,,[0. 0.],salim duluu,NON ASD
+70,salim ,[-0.11773815  0.11773815],salim duluu,NON ASD
+70,dulu,[-0.61210843  0.61210843],salim duluu,NON ASD
+70,u,[-0.16043308  0.16043308],salim duluu,NON ASD
+70,,[0. 0.],salim duluu,NON ASD
+71,,[0. 0.],nonton saja,NON ASD
+71,nonton ,[-0.4305586  0.4305586],nonton saja,NON ASD
+71,saja,[-0.45216422  0.45216422],nonton saja,NON ASD
+71,,[0. 0.],nonton saja,NON ASD
+72,,[0. 0.],aldi aldi liat ini aldi,NON ASD
+72,aldi ,[-0.15367497  0.15367497],aldi aldi liat ini aldi,NON ASD
+72,aldi ,[-0.14597431  0.14597431],aldi aldi liat ini aldi,NON ASD
+72,liat ,[-0.35589632  0.35589632],aldi aldi liat ini aldi,NON ASD
+72,ini ,[-0.16168156  0.16168156],aldi aldi liat ini aldi,NON ASD
+72,aldi,[-0.17161683  0.17161683],aldi aldi liat ini aldi,NON ASD
+72,,[0. 0.],aldi aldi liat ini aldi,NON ASD
+73,,[0. 0.],hahh,NON ASD
+73,hah,[-0.61419957  0.61419957],hahh,NON ASD
+73,h,[-0.17831737  0.17831737],hahh,NON ASD
+73,,[0. 0.],hahh,NON ASD
+74,,[0. 0.],kalau misal takut kayak gimana,NON ASD
+74,kalau ,[-0.16606428  0.16606428],kalau misal takut kayak gimana,NON ASD
+74,misal ,[-0.18866402  0.18866402],kalau misal takut kayak gimana,NON ASD
+74,takut ,[-0.29718312  0.29718312],kalau misal takut kayak gimana,NON ASD
+74,kayak ,[-0.16827549  0.16827549],kalau misal takut kayak gimana,NON ASD
+74,gimana,[-0.16856227  0.16856227],kalau misal takut kayak gimana,NON ASD
+74,,[0. 0.],kalau misal takut kayak gimana,NON ASD
+75,,[0. 0.],mauuu,ASD
+75,mau,[ 0.03272194 -0.03272194],mauuu,ASD
+75,uu,[-0.10933714  0.10933714],mauuu,ASD
+75,,[0. 0.],mauuu,ASD
+76,,[0. 0.],lihat garis putusputusnya,NON ASD
+76,lihat ,[-0.32137183  0.32137183],lihat garis putusputusnya,NON ASD
+76,garis ,[-0.02859984  0.02859984],lihat garis putusputusnya,NON ASD
+76,putus,[-0.0733165  0.0733165],lihat garis putusputusnya,NON ASD
+76,putus,[-0.06918036  0.06918036],lihat garis putusputusnya,NON ASD
+76,nya,[-0.35493288  0.35493288],lihat garis putusputusnya,NON ASD
+76,,[0. 0.],lihat garis putusputusnya,NON ASD
+77,,[0. 0.],nggghh,ASD
+77,ngg,[ 0.00449532 -0.00449532],nggghh,ASD
+77,gh,[-0.14414575  0.14414575],nggghh,ASD
+77,h,[-0.06127424  0.06127424],nggghh,ASD
+77,,[0. 0.],nggghh,ASD
+78,,[0. 0.],hahahaha,NON ASD
+78,hahahaha,[-0.52882479  0.52882479],hahahaha,NON ASD
+78,,[0. 0.],hahahaha,NON ASD
+79,,[0. 0.],s,ASD
+79,s,[-0.26561061  0.26561061],s,ASD
+79,,[0. 0.],s,ASD
+80,,[0. 0.],naik naik,NON ASD
+80,naik ,[-0.45676591  0.45676591],naik naik,NON ASD
+80,naik,[-0.4808993  0.4808993],naik naik,NON ASD
+80,,[0. 0.],naik naik,NON ASD
+81,,[0. 0.],kayak sudah cukup ibu,NON ASD
+81,kayak ,[-0.11855298  0.11855298],kayak sudah cukup ibu,NON ASD
+81,sudah ,[-0.39954673  0.39954673],kayak sudah cukup ibu,NON ASD
+81,cukup ,[-0.39074774  0.39074774],kayak sudah cukup ibu,NON ASD
+81,ibu,[-0.06020325  0.06020325],kayak sudah cukup ibu,NON ASD
+81,,[0. 0.],kayak sudah cukup ibu,NON ASD
+82,,[0. 0.],cepat risa nulis,NON ASD
+82,cepat ,[-0.25558028  0.25558028],cepat risa nulis,NON ASD
+82,ris,[-0.42564349  0.42564349],cepat risa nulis,NON ASD
+82,a ,[-0.09796715  0.09796715],cepat risa nulis,NON ASD
+82,nulis,[ 0.06389564 -0.06389564],cepat risa nulis,NON ASD
+82,,[0. 0.],cepat risa nulis,NON ASD
+83,,[0. 0.],ohh tanah basah,NON ASD
+83,ohh ,[-0.15185212  0.15185212],ohh tanah basah,NON ASD
+83,tanah ,[-0.23928107  0.23928107],ohh tanah basah,NON ASD
+83,basah,[-0.35667014  0.35667014],ohh tanah basah,NON ASD
+83,,[0. 0.],ohh tanah basah,NON ASD
+84,,[0. 0.],senang keysa senangya,NON ASD
+84,senang ,[-0.0503601  0.0503601],senang keysa senangya,NON ASD
+84,key,[-0.26008927  0.26008927],senang keysa senangya,NON ASD
+84,sa ,[-0.12222898  0.12222898],senang keysa senangya,NON ASD
+84,senang,[-0.14320233  0.14320233],senang keysa senangya,NON ASD
+84,ya,[-0.13931148  0.13931148],senang keysa senangya,NON ASD
+84,,[0. 0.],senang keysa senangya,NON ASD
+85,,[0. 0.],teguh,ASD
+85,teguh,[-0.14615617  0.14615617],teguh,ASD
+85,,[0. 0.],teguh,ASD
+86,,[0. 0.],aaaaaaaaaa ayyyyyiiiiiiii,ASD
+86,aa,[-0.00610786  0.00610786],aaaaaaaaaa ayyyyyiiiiiiii,ASD
+86,aaaaa,[ 0.02039174 -0.02039174],aaaaaaaaaa ayyyyyiiiiiiii,ASD
+86,aaa ,[-0.02023167  0.02023167],aaaaaaaaaa ayyyyyiiiiiiii,ASD
+86,ay,[-0.01103897  0.01103897],aaaaaaaaaa ayyyyyiiiiiiii,ASD
+86,yy,[-0.01433675  0.01433675],aaaaaaaaaa ayyyyyiiiiiiii,ASD
+86,yy,[-0.002714  0.002714],aaaaaaaaaa ayyyyyiiiiiiii,ASD
+86,iiii,[-0.00582445  0.00582445],aaaaaaaaaa ayyyyyiiiiiiii,ASD
+86,iiii,[-0.02364331  0.02364331],aaaaaaaaaa ayyyyyiiiiiiii,ASD
+86,,[0. 0.],aaaaaaaaaa ayyyyyiiiiiiii,ASD
+87,,[0. 0.],,ASD
+87,,[0. 0.],,ASD
+88,,[0. 0.],,NON ASD
+88,,[0. 0.],,NON ASD
+89,,[0. 0.],kiana kiana hey kiana,NON ASD
+89,kian,[-0.09007527  0.09007527],kiana kiana hey kiana,NON ASD
+89,a ,[-0.05883085  0.05883085],kiana kiana hey kiana,NON ASD
+89,kian,[-0.21497255  0.21497255],kiana kiana hey kiana,NON ASD
+89,a ,[-0.10385559  0.10385559],kiana kiana hey kiana,NON ASD
+89,hey ,[-0.27677054  0.27677054],kiana kiana hey kiana,NON ASD
+89,kian,[-0.12429381  0.12429381],kiana kiana hey kiana,NON ASD
+89,a,[ 0.00331264 -0.00331264],kiana kiana hey kiana,NON ASD
+89,,[0. 0.],kiana kiana hey kiana,NON ASD
+90,,[0. 0.],,ASD
+90,,[0. 0.],,ASD
+91,,[0. 0.],hadiah,NON ASD
+91,hadiah,[-0.52883945  0.52883945],hadiah,NON ASD
+91,,[0. 0.],hadiah,NON ASD
+92,,[0. 0.],kaba bayk,ASD
+92,kab,[ 0.10660187 -0.10660187],kaba bayk,ASD
+92,a ,[-0.12843767  0.12843767],kaba bayk,ASD
+92,bay,[-0.21583973  0.21583973],kaba bayk,ASD
+92,k,[ 0.10706149 -0.10706149],kaba bayk,ASD
+92,,[0. 0.],kaba bayk,ASD
+93,,[0. 0.],zakiyah lagi,NON ASD
+93,zak,[-0.10637929  0.10637929],zakiyah lagi,NON ASD
+93,iyah ,[-0.29083541  0.29083541],zakiyah lagi,NON ASD
+93,lagi,[-0.32199916  0.32199916],zakiyah lagi,NON ASD
+93,,[0. 0.],zakiyah lagi,NON ASD
+94,,[0. 0.],nusa micro nusa,ASD
+94,nusa ,[-0.01599716  0.01599716],nusa micro nusa,ASD
+94,micro ,[ 0.0001598 -0.0001598],nusa micro nusa,ASD
+94,nusa,[-0.06394632  0.06394632],nusa micro nusa,ASD
+94,,[0. 0.],nusa micro nusa,ASD
+95,,[0. 0.],aaa,NON ASD
+95,aa,[-0.1243407  0.1243407],aaa,NON ASD
+95,a,[-0.30809709  0.30809709],aaa,NON ASD
+95,,[0. 0.],aaa,NON ASD
+96,,[0. 0.],tunggu yah,NON ASD
+96,tunggu ,[-0.20968081  0.20968081],tunggu yah,NON ASD
+96,yah,[-0.58689725  0.58689725],tunggu yah,NON ASD
+96,,[0. 0.],tunggu yah,NON ASD
+97,,[0. 0.],haaiii,ASD
+97,ha,[-0.13477431  0.13477431],haaiii,ASD
+97,ai,[-0.27364375  0.27364375],haaiii,ASD
+97,ii,[-0.0423754  0.0423754],haaiii,ASD
+97,,[0. 0.],haaiii,ASD
+98,,[0. 0.],kasih saja lagu garuda pancasila,NON ASD
+98,kasih ,[-0.21189784  0.21189784],kasih saja lagu garuda pancasila,NON ASD
+98,saja ,[-0.11998376  0.11998376],kasih saja lagu garuda pancasila,NON ASD
+98,lagu ,[-0.37323145  0.37323145],kasih saja lagu garuda pancasila,NON ASD
+98,garuda ,[ 0.01336968 -0.01336968],kasih saja lagu garuda pancasila,NON ASD
+98,pancasila,[-0.02337896  0.02337896],kasih saja lagu garuda pancasila,NON ASD
+98,,[0. 0.],kasih saja lagu garuda pancasila,NON ASD
+99,,[0. 0.],kayak misal,NON ASD
+99,kayak ,[-0.32456701  0.32456701],kayak misal,NON ASD
+99,misal,[-0.5106213  0.5106213],kayak misal,NON ASD
+99,,[0. 0.],kayak misal,NON ASD
