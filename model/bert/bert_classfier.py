@@ -13,4 +13,4 @@ class BertFCClassifier(nn.Module):
         )
 
     def forward(self, x):
-        return self.classifier(x).squeeze()
+        return self.classifier(x)

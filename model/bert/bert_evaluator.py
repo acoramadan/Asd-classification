@@ -1,3 +1,4 @@
+
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, confusion_matrix, classification_report
 from sklearn.model_selection import StratifiedKFold
 import numpy as np
@@ -11,13 +12,13 @@ class BertFCEvaluator:
         self.n_splits = n_splits
         self.pos_label = pos_label
     
-    def evalute_kfold(self):
+    def evaluate_kfold(self):
         skf = StratifiedKFold(n_splits=self.n_splits, shuffle=True, random_state=42)
-        y = np.array([1 if d['labels'] == 1 else 0 for d in self.dataset])
+        y = np.array([1 if label == 'ASD' else 0 for label in self.dataset.df['label']])
         results = []
 
-        for fold, (train_idx, test_idx) in enumerate(skf.split(np.zeros(len(y)),y),1):
-            print(f"\nFold{fold}")
+        for fold, (train_idx, test_idx) in enumerate(skf.split(np.zeros(len(y)), y), 1):
+            print(f"\nFold {fold}")
 
             train_subset = torch.utils.data.Subset(self.dataset, train_idx)
             test_subset = torch.utils.data.Subset(self.dataset, test_idx)
@@ -31,7 +32,7 @@ class BertFCEvaluator:
 
             metrics = self.evaluate_single(model, test_loader)
             results.append(metrics)
-        
+
         print("\nAverage Metrics Across Folds:")
         for key in results[0]:
             avg = np.mean([m[key] for m in results])
