@@ -1,0 +1,56 @@
+index,true_label,predicted_label,word,weight,text
+0,ASD,1,LANI,-0.01603324249853497,LANI!
+1,ASD,1,Hmmm,-8.37420360609256e-31,Hmmm
+2,ASD,1,NGHHH,0.19746488076417043,NGHHH WUHH?
+2,ASD,1,WUHH,-0.050590193589221955,NGHHH WUHH?
+3,ASD,1,nghh,0.19954079524975013,wahhhh nghh
+3,ASD,1,wahhhh,-0.0840387420459652,wahhhh nghh
+4,ASD,0,riyah,0.17028927200714505,Kayak seperti riyah
+4,ASD,0,seperti,-0.10677374490815256,Kayak seperti riyah
+4,ASD,0,Kayak,-0.10357804291696011,Kayak seperti riyah
+5,ASD,1,Mwah,0.09976460351567368,Mwah
+6,ASD,1,jaajeee,0.037309242380756655,Jaaako jaajeee jiiiaaa jiiikooo juujiii
+6,ASD,1,jiiiaaa,0.03672398857998821,Jaaako jaajeee jiiiaaa jiiikooo juujiii
+6,ASD,1,jiiikooo,0.03656073961522463,Jaaako jaajeee jiiiaaa jiiikooo juujiii
+6,ASD,1,Jaaako,0.027290329363693747,Jaaako jaajeee jiiiaaa jiiikooo juujiii
+6,ASD,1,juujiii,0.026712487203446388,Jaaako jaajeee jiiiaaa jiiikooo juujiii
+7,ASD,1,Kagak,-0.02005824567061885,eh Kagak
+7,ASD,1,eh,0.00707496712403827,eh Kagak
+8,ASD,0,naik,-0.2121423036689032,naik
+9,ASD,1,Sama,-0.17881711808120584,Sama kakak!
+9,ASD,1,kakak,0.17837853996112743,Sama kakak!
+10,ASD,1,WAWAWAWA,0.06187039891736809,"HUUUAAAAAA HMMM, WAWAWAWA WAWAWA"
+10,ASD,1,WAWAWA,0.06060166207908552,"HUUUAAAAAA HMMM, WAWAWAWA WAWAWA"
+10,ASD,1,HUUUAAAAAA,0.006177625097603572,"HUUUAAAAAA HMMM, WAWAWAWA WAWAWA"
+10,ASD,1,HMMM,-7.608211016536741e-05,"HUUUAAAAAA HMMM, WAWAWAWA WAWAWA"
+11,ASD,1,pak,0.12516154011107464,pak
+12,NON ASD,0,Haiii,-0.05619213442922378,Haiii
+13,NON ASD,0,Risa,-0.3351422241985389,"Buka matanya, Risa."
+13,NON ASD,0,Buka,-0.1308274434820706,"Buka matanya, Risa."
+13,NON ASD,0,matanya,-0.05341681188416185,"Buka matanya, Risa."
+14,NON ASD,1,dongeng,-0.05804922782019211,Apa? artinya dongeng apa?
+14,NON ASD,1,apa,4.821807664743748e-05,Apa? artinya dongeng apa?
+14,NON ASD,1,Apa,4.594515717996085e-05,Apa? artinya dongeng apa?
+14,NON ASD,1,artinya,4.306695732658674e-05,Apa? artinya dongeng apa?
+15,NON ASD,0,Ketika,-0.3146309648357246,Ketika berpuasa apa
+15,NON ASD,0,berpuasa,0.0008175379193999643,Ketika berpuasa apa
+15,NON ASD,0,apa,0.0008055133643534955,Ketika berpuasa apa
+16,NON ASD,0,siapa,-0.2835190565027553,"Maksudku, siapa yang tahu, kan?"
+16,NON ASD,0,yang,-0.054805151103564535,"Maksudku, siapa yang tahu, kan?"
+16,NON ASD,0,tahu,-0.05073401450788374,"Maksudku, siapa yang tahu, kan?"
+16,NON ASD,0,kan,-0.00944475787654112,"Maksudku, siapa yang tahu, kan?"
+16,NON ASD,0,Maksudku,-0.007288085125209957,"Maksudku, siapa yang tahu, kan?"
+17,NON ASD,0,Naik,-0.2121423036689032,Naik
+18,NON ASD,0,naik,-0.4883057410508013,Yang di kiri naik
+18,NON ASD,0,kiri,0.28027318822005387,Yang di kiri naik
+18,NON ASD,0,di,-0.008385766658787897,Yang di kiri naik
+18,NON ASD,0,Yang,-0.007814529301167768,Yang di kiri naik
+19,NON ASD,0,Ponselku,-0.05434639305761042,Ponselku.
+20,NON ASD,0,naik,-0.11946155086661495,"Naik, naik"
+20,NON ASD,0,Naik,-0.11945559787356887,"Naik, naik"
+21,NON ASD,0,Siapa,-0.3569326012249124,Siapa namamu?
+21,NON ASD,0,namamu,0.12586779403851112,Siapa namamu?
+22,NON ASD,0,Huh,-0.07287050210501457,Huh.
+23,NON ASD,0,Ohh,-0.43876776798647804,Ohh daeng tata
+23,NON ASD,0,daeng,0.11430279690799948,Ohh daeng tata
+23,NON ASD,0,tata,0.0843076780896699,Ohh daeng tata

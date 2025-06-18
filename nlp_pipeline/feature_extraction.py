@@ -15,8 +15,8 @@ class FeatureExtractor:
             ngram_range=tfidf_ngram_range,
             sublinear_tf=tfidf_sublinear_tf
         )
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.model = AutoModel.from_pretrained(model_name)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name,force_download=True)
+        self.model = AutoModel.from_pretrained(model_name,force_download=True)
         self.max_length = max_length
 
         self.linguistic_cols = [
