@@ -25,6 +25,18 @@ class FeatureExtractor:
             'type_token_ratio', 'avg_words_per_sentence'
         ]
 
+    def extract_fused_features_tfidf(self, df, text_column='clean_text', fit=True):
+        
+        if fit:
+            tfidf_features = self.tfidf_vectorizer.fit_transform(df[text_column])
+        else:
+            tfidf_features = self.tfidf_vectorizer.transform(df[text_column])
+        
+        linguistic_features = df[self.linguistic_cols].to_numpy().astype(np.float32)
+        tfidf_dense = tfidf_features.toarray()
+        fused = np.concatenate([tfidf_dense, linguistic_features], axis=1)
+        return fused
+
     def fit_transform_tfidf(self, text_series):
         return self.tfidf_vectorizer.fit_transform(text_series)
 
