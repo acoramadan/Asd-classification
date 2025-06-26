@@ -95,3 +95,54 @@ class BertFCTrainer:
         y_tensor = torch.tensor(y, dtype=torch.float32)
         dataset = TensorDataset(X_tensor, y_tensor)
         return DataLoader(dataset, batch_size=self.batch_size, shuffle=shuffle)
+    
+    def train_finetune(self, train_loader, val_loader):
+        self.model.to(self.device)
+        best_val_loss = float('inf')
+        patience_counter = 0
+        best_model = None
+
+        for epoch in range(self.epochs):
+            self.model.train()
+            total_loss = 0.0
+
+            for batch in train_loader:
+                input_ids = batch['input_ids'].to(self.device)
+                attention_mask = batch['attention_mask'].to(self.device)
+                labels = batch['labels'].float().unsqueeze(1).to(self.device)
+
+                self.optimizer.zero_grad()
+                outputs = self.model(input_ids=input_ids, attention_mask=attention_mask)
+                loss = self.criterion(outputs, labels)
+                loss.backward()
+                self.optimizer.step()
+                total_loss += loss.item()
+
+            val_loss = self.evaluate_finetune_loss(val_loader)
+            print(f"Epoch {epoch+1}/{self.epochs}, Train Loss: {total_loss:.4f}, Val Loss: {val_loss:.4f}")
+
+            if val_loss < best_val_loss:
+                best_val_loss = val_loss
+                best_model = self.model.state_dict()
+                patience_counter = 0
+            else:
+                patience_counter += 1
+                if patience_counter >= self.patience:
+                    print(f"Early stopping triggered at epoch {epoch+1}")
+                    break
+
+        if best_model is not None:
+            self.model.load_state_dict(best_model)
+
+    def evaluate_finetune_loss(self, dataloader):
+        self.model.eval()
+        total_loss = 0.0
+        with torch.no_grad():
+            for batch in dataloader:
+                input_ids = batch['input_ids'].to(self.device)
+                attention_mask = batch['attention_mask'].to(self.device)
+                labels = batch['labels'].float().unsqueeze(1).to(self.device)
+                outputs = self.model(input_ids=input_ids, attention_mask=attention_mask)
+                loss = self.criterion(outputs, labels)
+                total_loss += loss.item()
+        return total_loss / len(dataloader)
